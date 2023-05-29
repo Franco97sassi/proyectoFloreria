@@ -1,5 +1,5 @@
 
-
+/*header*/
 header{
     background-color: pink;
 }
@@ -9,10 +9,23 @@ header div img{
 height: 250px;
 
 }
-    
- 
- 
+/*main*/
+main{
+    background-color: pink;
+}
+.a{
+display: grid;
 
+
+}
+
+article img{
+   
+height: 250px;
+}
+ 
+ 
+/*footer*/
 footer img{
 width: 50px;
 height: 50px;
