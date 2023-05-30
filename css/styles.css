@@ -15,6 +15,11 @@
 
 
 /*header*/
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 header {
     background-color: rgba(228, 130, 146, 0.904);
 
@@ -62,7 +67,7 @@ a {
 .fondoIndex {
 
     background-color: #f8d3f0;
-    background-image: url("../assets/imgs/fondo.jpg");
+    background-image: url("../assets/imgs/port.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -185,7 +190,7 @@ article .p3 {
 
 /*footer*/
 footer {
-    background-color: pink;
+    background-color:  rgba(228, 130, 146, 0.904) ;
     
 }
  
@@ -323,4 +328,9 @@ button .cotizacion{
     flex-direction: row;
     justify-content: center;
      
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
