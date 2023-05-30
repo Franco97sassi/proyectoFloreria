@@ -1,34 +1,326 @@
+/*fonts*/
+/*titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+/*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 
 /*header*/
-header{
-    background-color: pink;
-}
-
-header div img{
-    width: 250px;
-height: 250px;
+header {
+    background-color: rgba(228, 130, 146, 0.904);
 
 }
+
+header div img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+a {
+     
+    color: blueviolet;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+
+
+.navBarOriginal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navBarOriginal a {
+    text-decoration: none;
+     color: blueviolet;
+    font-family: 'Merriweather Sans', sans-serif;
+ }
+
+
+
+
 /*main*/
-main{
-    background-color: pink;
-}
-.a{
-display: grid;
 
+/*mainIndex*/
+.fondoIndex {
 
+    background-color: #f8d3f0;
+    background-image: url("../assets/imgs/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+ 
 }
 
-article img{
-   
-height: 250px;
-}
  
  
+
+ 
+/*main*/
+ 
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    padding-top: 250px;
+    color: rgb(255, 255, 255);
+
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+p {
+
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+/*mainProductos*/
+article img {
+     
+    height: 250px;
+    width: 250px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+article {
+     display: flex;
+     flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      
+}
+
+/* article h3 {
+    grid-area: h3;
+    text-align: center;
+}
+
+article h4 {
+    grid-area: h4;
+}
+
+article img {
+    grid-area: img;
+}
+
+article .p1 {
+    grid-area: p1;
+}
+
+article .p2 {
+    grid-area: p2;
+}
+
+article .p3 {
+    grid-area: div;
+    color: black;
+    text-align: center;
+    background-color: rgb(243, 140, 195);
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+} */
+
+
+/*mainServicios*/
+.fondoServicios {
+    background-color: #f8dbd3;
+    background-image: url("../assets/imgs/fondoServicios.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.servicios li {
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+/*mainContactos*/
+.fondoContactos {
+    background-color: #6e6e6e;
+    background-image: url("../assets/imgs/fondoContactos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    background-position: center;
+
+
+
+}
+
 /*footer*/
-footer img{
-width: 50px;
-height: 50px;
+footer {
+    background-color: pink;
+    
+}
+ 
+
+footer img {
+    width: 50px;
+    height: 50px;
 }
 
+.btnBar {
+    color: rebeccapurple;
+}
+
+.fondoIndex h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+}
+
+.fondoServicios h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+}
+
+.fondoContactos h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.cesta-carrito {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: blueviolet;
+    border-radius: 75%;
+    padding: 10px 20px;
+    transition: all .10s;
+}
+
+button p   {    
+     
+    color: blueviolet;
+    font-size: 20px;
+
+
+
+
+}
+
+.logo img {
+    width: 10;
+    height: 10;
+}
+
+.mapaUbicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .servicios {
+    text-align: center;
  
+}
+
+.servicios {
+    list-style-type: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    
+}
+.servicios h2{
+    grid-area: h2;
+}
+.servicios img{
+    grid-area: img;
+}
+
+.servicios img{
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    background-color: rgb(193, 140, 243);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+     
+     
+    font-size: 10rem;
+    color: black;
+    font-weight: bold;
+}
+button .cotizacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+     
+    margin-right: 10px;
+}
+
+.formPosition{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+ .formPositionButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+      
+ }
+
+ .footerFinal{
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+     justify-content: center;
+}
+.footerFinal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+}
