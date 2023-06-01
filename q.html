@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="cal">
+    <input type="button" class="mov" value="<"
+        onclick="calendario4.mueveCalendar(-1)" />
+    <input type="text" class="titulo"" id="input4"
+        size="8" maxlength="7"
+        onfocus = "calendario4.entraFecha(this)"
+        onblur = "calendario4.mueveMesAnyo(this)" />
+    <input type="button" class="mov" value=">"
+        onclick="calendario4.mueveCalendar(1)" />
+    <div id="div4" class="tab"></div>
+</div>
+<fieldset>
+    <input type="button" value="Información"
+        onclick="calendario4.mensaje()" />
+    <input type="button" value="Ir a hoy"
+        onclick="calendario4.situaHoy()" />
+    <br />
+    <input type="text" id="inputfecha" value="31/12/1999"
+        size="10" maxlength="10" title="dd/mm/aaaa" />
+    <input type="button" value="Ir a esa fecha"
+        onclick = "document.getElementById('inputfecha').value =
+            calendario4.situaFecha(document.getElementById('inputfecha').value)" />
+    <br />
+    <input type="button" value="Fecha seleccionada"
+        onclick="alert(calendario4.devuelveFecha(document.getElementById('formato').value))" />
+    Formato:
+    <select id="formato">
+        <option value="fecha-larga">"fecha-larga" p.e. "10/6/2010"</option>
+        <option value="fecha-corta">"fecha-corta" p.e. "10/6/10"</option>
+        <option value="fecha-dia-semana">
+            "fecha-dia-semana" p.e. "Jueves, 10 de Junio de 2010"</option>
+        <option value="array">"array": objeto Array()</option>
+        <option value="date">"date": objeto Date()</option>
+    </select>
+</fieldset>
+<script>
+    var calendario4 = new calendar("calendario4", "div4", "input4", "", true);
+    if (calendario4.creado) calendario4.construyeCalendario();
+</script>
+</body>
+</html>
