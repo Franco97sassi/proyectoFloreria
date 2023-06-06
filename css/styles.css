@@ -515,3 +515,132 @@ text-align: center;
 button.btnNuevo{
     color: blueviolet;
 }
+.cartSnacks  {
+    padding-top: 100px  ;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cartSnacks img{
+    width: 250px;
+    height: 250px;
+}
+.fondoProductos{
+    background-color: #f8dbd3;
+    background-image: url("../assets/imgs/imagen1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.fondoProductos h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+}
+ 
+.snackQuestion1{
+     
+background-image: url("../assets/imgs/snack1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: center;
+text-align: center;
+
+}
+.snackQuestion2{
+      
+     background-image: url("../assets/imgs/snack2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: center;
+}
+.snackQuestion3{
+     
+    background-image: url("../assets/imgs/snack3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: center;
+
+}
+.snackQuestion4{
+    
+        background-image: url("../assets/imgs/snack4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: center;
+
+}
+.snack p,label,h3,h4{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.snackQuestion1 h2{
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+ 
+.snackImagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.snackImagen img{
+    width: 500px;
+    height: 500px;
+}
+.login label,h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+ }
+ .login a{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+    .login input{
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 1.25rem;
+        color: rgb(0, 0, 0);
+    }
+    .login span{
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 1.25rem;
+        color: rgb(0, 0, 0);
+        
+    }
+ 
+  .login2  {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .hide{
+        display: none;
+  }
+  .active{
+        display: block;
+  }
+  .cartNew{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 50px;
+  }
