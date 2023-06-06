@@ -28,6 +28,7 @@
                         <p>  Productos</p>  
                     </button>
                     <ul class="dropdown-menu">
+                        <li><a href="snackCart.html" class="dropdown-item" href="#">Carrito De Snacks</a></li>
                         <li><a href="tulipanes.html" class="dropdown-item" href="#">Tulipanes</a></li>
                         <li><a href="gerberas.html" class="dropdown-item" href="#">Gerberas</a></li>
                         <li><a href="ramosVariados.html" class="dropdown-item" href="#">Ramos Variados</a></li>
@@ -44,33 +45,77 @@
                 </div>
                 <li><a href="servicios.html">Servicios</a> </li>
                 <li><a href="contacto.html">Contacto</a> </li>
+                <li>  <i class="fas fa-shopping-cart cartNew">
+                    <span id="contador-carrito"></span>
+                 </i></li>
             </ul>
 
         </nav>
     </header>
-
+    <section class="fondoProductos">  
+        <h1>Productos</h1>
+    </section>
     <main>
+         
          
         <article>
             <img src="../assets/imgs/gerbera1.jpg" alt="" >
-            <h3>  Ramo de 12 gerberas</h3>            
-            <p> $700.00</p>
-            
-            <button class="btn btn-primary btn-lg" >Comprar</button>
+             <section class="descripcion">  
+            <h3> Ramo de 12 gerberas</h3>            
+               
+            <h4>Descripcion</h4>
+            <p class="p1">10 gerberas en ramo con follaje.Color y tipo de papel puede variar</p>
+            <h4>Color de Gerbera:</h4>
+             <div class="circles"> 
+              <span class="circle1"></span>  
+              <span class="circle2"></span>
+              <span class="circle3"></span>
+              <span class="circle4"></span>
+            </div>
+            <br>
+            <button class="btn btn-danger btn-lg btnColor"> $$700.00</button>
+            <br> <br>
+            <button class="btn btn-primary btn-lg   " >Comprar</button>
+        </section>
         </article>
         <br>
-        <article>
+      <article>
             <img src="../assets/imgs/gerbera2.jpg" alt="" >
-            <h3> Ramo de 24 gerberas</h3>            
-            <p> $1300.00</p>
-            <button class="btn btn-primary btn-lg" >Comprar</button>
-        </article>
+            <section class="descripcion">  
+           <h3> Ramo de 24 gerberas</h3>            
+              
+           <h4>Descripcion</h4>
+           <p class="p1">10 gerberas en ramo con follaje.Color y tipo de papel puede variar</p>
+           <h4>Color de Gerbera:</h4>
+            <div class="circles"> 
+             <span class="circle1"></span>  
+             <span class="circle2"></span>
+             <span class="circle3"></span>
+             <span class="circle4"></span>
+           </div>
+           <br>
+           <button class="btn btn-danger btn-lg btnColor"> $1300.00</button>
+           <br> <br>
+           <button class="btn btn-primary btn-lg   " >Comprar</button>
+       </section>
+       </article>
         <br>
     </main>
     <footer>
-        <img src="../assets/icons/casa.png" alt="casa">
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">   <img src="../assets/icons/correo.png" alt="correo"></a>
-         <img src="../assets/icons/llamada-telefonica.png" alt="telefono">
+        <section class="footerFinal">  
+          <img src="../assets/icons/casa.png" alt="casa"> <p>Plaza Paseo #14,Sonora</p> 
+           <img src="../assets/icons/correo.png"
+                    alt="correo"></a>  <p>@todofloral.hmo</p></div>
+                       <img src="../assets/icons/llamada-telefonica.png" alt="telefono"> <p>6625130440</p> 
+                    </section>
+                    <br>
+        <section class="footerFinal2">  
+            <p>Los colores y algunas flores pueden variar por disponibildiad y estacionalidad.</p> 
+             
+        </section>
+        <section class="footerFinal2">  
+             <p>Todo Floral 2023 © Todos los derechos Reservados.</p>
+        </section>
     </footer>
         <!--LinkBootstrap 5-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
@@ -79,6 +124,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

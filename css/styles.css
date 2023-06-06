@@ -15,11 +15,12 @@
 
 
 /*header*/
-.logo{
+.logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 header {
     background-color: rgba(228, 130, 146, 0.904);
 
@@ -33,7 +34,7 @@ header div img {
 
 
 a {
-     
+
     color: blueviolet;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.25rem;
@@ -54,9 +55,9 @@ a {
 
 .navBarOriginal a {
     text-decoration: none;
-     color: blueviolet;
+    color: blueviolet;
     font-family: 'Merriweather Sans', sans-serif;
- }
+}
 
 
 
@@ -72,15 +73,15 @@ a {
     background-size: cover;
     height: 100vh;
     background-position: center;
- 
+
 }
 
- 
- 
 
- 
+
+
+
 /*main*/
- 
+
 h1 {
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -108,7 +109,7 @@ p {
 
 
 /*mainProductos*/
-  /* article img {
+/* article img {
      
     height: 250px;
     width: 250px;
@@ -117,11 +118,11 @@ p {
 }  */
 
 /* article { */
-       /* display: flex;
+/* display: flex;
      flex-direction: column;
         justify-content: center;
-        align-items: center; */  
-        /* display: grid;
+        align-items: center; */
+/* display: grid;
         justify-items: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -135,15 +136,15 @@ p {
         "img p2"
         "img button"
         ; */
-      
+
 /* } */
 
- 
+
 
 /* 
   article h3 {
     grid-area: h3; */
-    /* text-align: center; */
+/* text-align: center; */
 /* } */
 
 /* article h4 {
@@ -179,8 +180,8 @@ article.button {
     border-radius: 10px;
     border: 1px solid black;
 
-} */ */
-
+} */
+*/
 
 /*mainServicios*/
 .fondoServicios {
@@ -213,10 +214,10 @@ article.button {
 
 /*footer*/
 footer {
-    background-color:  rgba(228, 130, 146, 0.904) ;
-    
+    background-color: rgba(228, 130, 146, 0.904);
+
 }
- 
+
 
 footer img {
     width: 50px;
@@ -258,8 +259,8 @@ footer img {
     transition: all .10s;
 }
 
-button p   {    
-     
+button p {
+
     font-size: 20px;
 
 
@@ -282,7 +283,7 @@ button p   {
 
 main .servicios {
     text-align: center;
- 
+
 }
 
 .servicios {
@@ -290,98 +291,111 @@ main .servicios {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1rem;
     color: black;
-    
+
 }
-.servicios h2{
+
+.servicios h2 {
     grid-area: h2;
 }
-.servicios img{
+
+.servicios img {
     grid-area: img;
 }
 
-.servicios img{
+.servicios img {
     width: 250px;
     height: 250px;
 }
 
 button {
-     border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid black;
     padding: 10px 20px;
-     
-     
+
+
     font-size: 10rem;
     color: black;
     font-weight: bold;
 }
- .cotizacion button{
-     
-    border-radius: 100px;
-     margin-left: 1500px;
-     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    
-}
 
-.formPosition{
+.cotizacion button {
+
+    border-radius: 100px;
+   margin-left: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+
+.formPosition {
     display: flex;
     flex-direction: column;
     gap: 1px;
     justify-content: center;
     align-items: center;
 }
- .formPositionButton{
+
+.formPositionButton {
     display: flex;
     flex-direction: row;
     gap: 1px;
     justify-content: center;
     align-items: center;
-      
- }
 
- .footerFinal{
+}
+
+.footerFinal {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     gap: 50px;
-     justify-content: center;
+    justify-content: center;
 }
-.footerFinal2{
+
+.footerFinal2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-     
+
 }
-.logo{
+
+.logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.circle1{
+
+.circle1 {
     height: 30px;
     width: 30px;
-    background-color:  red;
+    background-color: red;
     border-radius: 50%;
 }
-.circle2{
+
+.circle2 {
     height: 30px;
     width: 30px;
-    background-color:  rgb(183, 0, 255);
+    background-color: rgb(183, 0, 255);
     border-radius: 50%;
 }
-.circle3{
+
+.circle3 {
     height: 30px;
     width: 30px;
-    background-color:  rgb(255, 0, 191);
+    background-color: rgb(255, 0, 191);
     border-radius: 50%;
 }
-.circle4{
+
+.circle4 {
     height: 30px;
     width: 30px;
-    background-color:  rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
     border-radius: 50%;
 }
-.circles{
+
+.circles {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -389,18 +403,19 @@ button {
 }
 
 article img {
-     
+
     height: 500px;
-    width:500px;
-    
-} 
+    width: 500px;
+
+}
+
 /* 
 article { */
-       /* display: flex;
+/* display: flex;
      flex-direction: column;
         justify-content: center;
-        align-items: center; */  
-        /* display: grid;
+        align-items: center; */
+/* display: grid;
         
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -417,12 +432,12 @@ article { */
       
 } */
 
- 
 
 
-  /* article h3 { */
-    /* grid-area: h3; */
-    /* text-align: center; */
+
+/* article h3 { */
+/* grid-area: h3; */
+/* text-align: center; */
 /* }
 
 article h4 {
@@ -449,30 +464,34 @@ article.button {
     height: 50px;
 }   */
 
-article{
+article {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
 }
-article section button .btnColor{
-  background-color: rgb(0, 0, 0);
+
+article section button .btnColor {
+    background-color: rgb(0, 0, 0);
 }
-.logo  a  {
+
+.logo a {
     font-family: 'Lobster', cursive;
     font-size: 7rem;
     color: rgb(0, 0, 0);
     text-align: center;
-text-decoration: none;
+    text-decoration: none;
 }
-.logo a h1{
+
+.logo a h1 {
     font-family: 'Lobster', cursive;
-     
+
     color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 10px;
 }
+
 .fondoServicios {
     background-color: #f8dbd3;
     background-image: url("../assets/imgs/fondoServicios.jpg");
@@ -482,41 +501,47 @@ text-decoration: none;
     background-position: center;
 
 }
-.txtInicio img{
+
+.txtInicio img {
     width: 250px;
     height: 250px;
 }
-.txtInicio{
+
+.txtInicio {
     height: 100vh;
     padding-top: 50px;
-    background-color:  rgb(218, 216, 216);
-     display: grid;
-     grid-template-areas: 
-     "timg th2"
-     "timg tp";
-     
+    background-color: rgb(218, 216, 216);
+    display: grid;
+    grid-template-areas:
+        "timg th2"
+        "timg tp";
+
 }
-.txtInicio h2{
-grid-area: th2;
-text-align: center;
+
+.txtInicio h2 {
+    grid-area: th2;
+    text-align: center;
 }
- 
-.txtInicio p{
+
+.txtInicio p {
     grid-area: tp;
     text-align: flex-end;
 
     padding-left: 25px;
 }
-.txtInicio img{
+
+.txtInicio img {
     grid-area: timg;
     align-self: center;
 
 }
-button.btnNuevo{
+
+button.btnNuevo {
     color: blueviolet;
 }
-.cartSnacks  {
-    padding-top: 100px  ;
+
+.cartSnacks {
+    padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
@@ -524,11 +549,13 @@ button.btnNuevo{
     align-items: center;
     gap: 10px;
 }
-.cartSnacks img{
+
+.cartSnacks img {
     width: 250px;
     height: 250px;
 }
-.fondoProductos{
+
+.fondoProductos {
     background-color: #f8dbd3;
     background-image: url("../assets/imgs/imagen1.jpg");
     background-repeat: no-repeat;
@@ -536,62 +563,148 @@ button.btnNuevo{
     height: 100vh;
     background-position: center;
 }
+
 .fondoProductos h1 {
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 7rem;
     color: rgb(0, 0, 0);
 }
- 
-.snackQuestion1{
-     
-background-image: url("../assets/imgs/snack1.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-background-position: center;
-text-align: center;
+
+.snackQuestion1 {
+
+    background-image: url("../assets/imgs/snack2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
 
 }
-.snackQuestion2{
-      
-     background-image: url("../assets/imgs/snack2.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-background-position: center;
+
+.snackQuestion2 {
+
+    background-image: url("../assets/imgs/snack1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
-.snackQuestion3{
-     
+
+.snackQuestion3 {
+
     background-image: url("../assets/imgs/snack3.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 
 }
-.snackQuestion4{
+
+.snackQuestion4 {
+
+    background-image: url("../assets/imgs/snackq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+.snackQuestion5{
     
         background-image: url("../assets/imgs/snack4.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    
+}
+.snackQuestion5 h1{
+    
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
 
 }
-.snack p,label,h3,h4{
+
+.snack p,
+label,
+h3,
+h4 {
     font-size: 2rem;
     font-family: 'Lobster', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
-.snackQuestion1 h2{
-    font-size: 2.5rem;
+
+.snackQuestion1  h1 {
+     
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+     
+
+}
+.snackQuestion2 h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+}
+.snackQuestion3{
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+}
+.snackQuestion3  h1 {
+     
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 5rem;
+     
+
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox label{
+    
     font-family: 'Lobster', cursive;
     color: rgb(255, 255, 255);
     text-align: center;
 }
+.flexSubmit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
  
+.snackQuestion4  h1 {
+     
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 5rem;
+     
+ }
+.snackQuestion4 label{
+        
+        font-family: 'Lobster', cursive;
+        color: rgb(0, 0, 0);
+        text-align: center;
+}
+
 .snackImagen {
     display: flex;
     flex-direction: row;
@@ -599,48 +712,85 @@ background-position: center;
     align-items: center;
     gap: 10px;
 }
-.snackImagen img{
+.snackQuestion4{
+    display: flex;
+    flex-direction: column;
+      
+    align-items:  center;
+     
+
+}
+.snackImagen img {
     width: 500px;
     height: 500px;
 }
-.login label,h2{
+
+.login label,
+h2 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.25rem;
     color: rgb(0, 0, 0);
- }
- .login a{
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.25rem;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
- }
-    .login input{
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 1.25rem;
-        color: rgb(0, 0, 0);
-    }
-    .login span{
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 1.25rem;
-        color: rgb(0, 0, 0);
-        
-    }
- 
-  .login2  {
+}
+
+.login a {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.25rem;
     color: rgb(0, 0, 0);
     text-decoration: none;
-  }
-  .hide{
-        display: none;
-  }
-  .active{
-        display: block;
-  }
-  .cartNew{
+}
+
+.login input {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+}
+
+.login span {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.login2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.register {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.register div a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.cartNew {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     font-size: 50px;
-  }
+}
+
+.formPosition label h4 {
+
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
