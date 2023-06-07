@@ -73,6 +73,7 @@ a {
     background-size: cover;
     height: 100vh;
     background-position: center;
+     
 
 }
 
@@ -794,3 +795,8 @@ h2 {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+/* .footerFinal a{
+ text-decoration: none;
+ color: #000;
+} */
